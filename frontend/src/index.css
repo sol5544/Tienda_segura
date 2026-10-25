@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f5f6fa; color: #1f2937; }
+.menu { display: flex; gap: 16px; align-items: center; padding: 12px 24px; background: #1e3a8a; }
+.menu a { color: #fff; text-decoration: none; font-weight: 600; }
+.menu button { margin-left: auto; }
+.contenedor { max-width: 900px; margin: 24px auto; padding: 0 16px; }
+.fila { display: flex; gap: 8px; margin-bottom: 12px; }
+.rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px;
+margin-top: 16px; }
+.tarjeta, .detalle, .formulario { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0
+1px 4px rgba(0,0,0,.1); }
+.tarjeta h3 { margin-top: 0; }
+.formulario { display: flex; flex-direction: column; gap: 6px; max-width: 380px; }
+input { padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 1rem; flex: 1; }
+button { padding: 8px 14px; border: 0; border-radius: 6px; background: #2563eb; color: #fff; font-weight: 600; cursor: pointer; }
+button:disabled { opacity: .6; cursor: default; }
+.error { color: #b91c1c; }
+.ok { color: #15803d; }
